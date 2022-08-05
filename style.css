@@ -7,3 +7,28 @@
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
 }
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.logo-image {
+    height: 4em;
+}
+
+.title {
+    color: #5f6368;
+    font-size: 2rem;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}

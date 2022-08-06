@@ -17,6 +17,7 @@
         <div id="form-container">
             <form id="form" autocomplete="off">
                 <input type="text" id="note-title" placeholder="Title">
+                <input type="text" id="note-tagline" placeholder="Tagline">
                 <input type="text" id="note-text" placeholder="Take a note...">
                 <div id="form-buttons">
                     <button type="submit" id="submit-button">Submit</button>
@@ -26,20 +27,7 @@
         </div>
 
         <div id="notes">
-            <div class="note">
-                <div class="note-title">
-                    Movie
-                </div>
-                <div class="note-text">
-                    The Batman
-                </div>
-                <div class="toolbar-container">
-                    <div class="toolbar">
-                        <i class="fa-solid fa-palette toolbar-color"></i>
-                        <i class="fa-solid fa-trash toolbar-delete"></i>
-                    </div>
-                </div>
-            </div>
+            
         </div>
 
         <div id="info">
@@ -53,6 +41,15 @@
             <div class="color-option" data-color="#a7ffeb" id="teal"></div>
         </div>
     </main>
+
+    <div class="modal">
+        <div class="modal-content">
+          <input class="modal-title" placeholder="Title" type="text">
+          <input class="modal-tagline" placeholder="Tagline" type="text">
+          <input class="modal-text" placeholder="Take a note..." type="text">
+          <span class="modal-close-button">Close</span>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
